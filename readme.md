@@ -1,5 +1,8 @@
-# Simple Caesar Cipher written in Python 3
+# Simple Caesar Cipher in Python
 ### Code with Klutch
+
+## Description:
+### A simple Caesar Cipher written in Python 3
 
 ## CHALLENGES:
 1. Conditional statements needed for input validation/data type error correction
