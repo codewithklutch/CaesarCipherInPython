@@ -1,6 +1,7 @@
-Simple Caesar Cipher written in Python 3
+# Simple Caesar Cipher written in Python 3
+### Code with Klutch
 
-CHALLENGES:
+## CHALLENGES:
 1. Conditional statements needed for input validation/data type error correction
 2. Write a script to decipher the messages
 3. Add uppercase letters and number support to expand user input 
