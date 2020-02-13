@@ -2,7 +2,7 @@
 ### Code with Klutch
 
 ## Description:
-### A simple Caesar Cipher written in Python 3
+A simple Caesar Cipher written in Python 3
 
 ## Challenges:
 1. Conditional statements needed for input validation/data type error correction
