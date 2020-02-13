@@ -1,4 +1,4 @@
-Python Tutorial: How to create a Caesar Cipher using Python 3
+Simple Caesar Cipher written in Python 3
 
 CHALLENGES:
 1. Conditional statements needed for input validation/data type error correction
