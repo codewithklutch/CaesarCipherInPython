@@ -1,25 +1,23 @@
-# List of characters that provide the scope for user input data
-lowercase = 'abcdefghijklmnopqrstuvwxyz'
+# List of letters
+letters = 'aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ'
 
-# Key for shifting the data
-key = 13
+# Key to shift the message_input
+key = 26
 
-# Prompts the user for input and assigns variables to store the input data
-string_input = input("Enter a Message: \n")
+# Asks for input and stores the data to a variable
+message_input = input("Enter a message: \n")
+encrypted_output = ""
 
-# Determines the length of user input data
-n = len(string_input)
+# Find the length of user input
+n = len(message_input)
 
-# Prints output data
-string_output = ""
-
-# Converts user input data then shifts it 
+# Converts user input then shifts it 
 for i in range(n):
-  character = string_input[i]
-  location = lowercase.find(character)
-  new_location = (location + key) % 26
-  string_output += lowercase[new_location]
+  character_value = message_input[i]
+  char_location = letters.find(character_value)
+  new_location = (char_location + key) % 52
+  encrypted_output += letters[new_location]
 
-# Prints the ciphered message
-print("\nCiphered Message: ")
-print(string_output)
+# Prints the encrypted message_input
+print("\nEncrypted message: ")
+print(encrypted_output)
